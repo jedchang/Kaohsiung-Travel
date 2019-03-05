@@ -11,4 +11,4 @@
 - **`e.target.nodeName`** - 判斷點選到正確位置
 - **`e.target.dataset.num`** - 獲取 HTML data-*屬性 
 
-![images](https://github.com/jedchang/Kaohsiung-Travel/blob/master/preview.jpg)
+![images](https://github.com/jedchang/Kaohsiung-Travel/blob/master/preview-2.jpg)
