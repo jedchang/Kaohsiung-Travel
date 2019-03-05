@@ -3,6 +3,7 @@
 
 ![image](https://img.shields.io/badge/JavaScript-exercise-brightgreen.svg)
 ![image](https://img.shields.io/badge/RWD-exercise-blue.svg)
+![image](https://img.shields.io/badge/SASS-exercise-ff69b4.svg)
 
 - **`new XMLHttpRequest();`** - 獲取 API 資料
 - **`forEach()、indexOf()`** - 過濾重複篩選區域
