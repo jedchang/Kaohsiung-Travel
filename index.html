@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kaohsiung Travel</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="title-logo">
+          <div class="logo"></div>
+        </div>
+        <div class="home-arrow-down">
+          <a href="#popular" id="goDown" class="smoth-scroll btn">
+            <i class="fas fa-angle-double-down"></i>
+          </a>
+        </div>
+        <div class="shape-img"><img src="./images/shape.png" alt="" /></div>
+      </header>
+      <div id="popular">
+        <div class="section-title">
+          <h4>熱門行政區</h4>
+          <h2>Popular administrative area</h2>
+        </div>
+        <div class="hot-zone">
+          <div class="item-zone">
+            <div class="image image-1"></div>
+            <button class="btn btn-1" value="苓雅區">苓雅區</button>
+          </div>
+          <div class="item-zone">
+            <div class="image image-2"></div>
+            <button class="btn btn-2" value="三民區">三民區</button>
+          </div>
+          <div class="item-zone">
+            <div class="image image-3"></div>
+            <button class="btn btn-3" value="田寮區">田寮區</button>
+          </div>
+          <div class="item-zone">
+            <div class="image image-4"></div>
+            <button class="btn btn-4" value="大樹區">大樹區</button>
+          </div>
+        </div>
+      </div>
+      <div id="explore">
+        <div class="section-txt">
+          <div class="explore-logo"></div>
+          <div class="txt">
+            高雄面積達2,952平方公里，共有38個行政區，各區多元地貌水色，文化資源豐富，展現出令人驕傲及多元包容的城市氣質。
+          </div>
+        </div>
+        <div class="section-bar">
+          <div class="section-title">
+            <h4>探索您的旅行</h4>
+            <h2>Find your tours</h2>
+          </div>
+          <div class="selected-bar">
+            <select name="zone" id="zone">
+              <option selected disabled>-- 請選擇行政區 --</option>
+            </select>
+            <i class="fas fa-angle-down"></i>
+          </div>
+        </div>
+        <div class="container">
+          <h2 class="zone-name"></h2>
+          <ul class="info">
+            <div class="loader">Loading...</div>
+          </ul>
+          <ul class="pagination">
+            <li id="btn-prev" class="pageBtn">
+              <a href="javascript:;" data-num="0" class="prev"><i class="fas fa-angle-double-left"></i>prev</a>
+            </li>
+            <li id="pageNum"></li>
+            <li id="btn-next" class="pageBtn">
+              <a href="javascript:;" data-num="1" class="next">next<i class="fas fa-angle-double-right"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-logo"></div>
+        <p class="copyright">Copyright© Kaohsiung City Government. All Rights Reserved.</p>
+        <p>資料來源：高雄市政府</p>
+      </footer>
+      <div id="goTop" title="Go Top">
+        <a href="javascript:;" class="btn"><i class="fas fa-angle-double-up"></i></a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
