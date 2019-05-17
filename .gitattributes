@@ -1,2 +1,4 @@
-# js 檢測開啟 
-*.js linguist-detectable = true
+# 忽略所有文件
+* linguist-vendored
+# 只看 js 文件
+*.js linguist-vendored=false
