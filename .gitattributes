@@ -1,0 +1,4 @@
+# 忽略所有文件
+* linguist-vendored
+# 把 js 當成 programming Language
+*.js linguist-vendored=false
