@@ -2,12 +2,9 @@
 
 前端 API 串接 (高雄旅遊網-景點資料)
 
-![image](https://img.shields.io/badge/JavaScript-exercise-brightgreen.svg)
-![image](https://img.shields.io/badge/jQuery-exercise-brightgreen.svg)
-![image](https://img.shields.io/badge/RWD-exercise-blue.svg)
-![image](https://img.shields.io/badge/SASS-exercise-ff69b4.svg)
+![image](https://img.shields.io/badge/JavaScript-exercise-F0DB4F.svg) ![image](https://img.shields.io/badge/jQuery-exercise-0769AD.svg) ![image](https://img.shields.io/badge/RWD-exercise-0B9C88.svg) ![image](https://img.shields.io/badge/SCSS-exercise-CD6799.svg)
 
-![images](https://github.com/jedchang/Kaohsiung-Travel/blob/master/preview-2.jpg)
+![image](https://github.com/jedchang/Kaohsiung-Travel/blob/master/preview-2.jpg)
 
 ### 獲取 API 資料
 
